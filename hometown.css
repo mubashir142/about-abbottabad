@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  text-align: center;
+  background: linear-gradient(rgba(4, 18, 0, 0.834),rgb(169, 183, 185));
+}
+#header {
+  background-image: url("abt.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 1s;
+}
+#abtText {
+  color: #203532;
+  font-family: cursive;
+  text-shadow: 0px 4px 4px white;
+  
+}
+#abtText2 {
+  color: #082a5d;
+  font-family: fantasy;
+  text-shadow: 0px 4px 4px white;
+  background: linear-gradient(rgba(214, 211, 45, 0.744), rgb(31, 119, 226));
+  width: 420px;
+}
+#point{
+     width:180px;
+    border-radius:50%;
+    border: 4px solid #fbfffd;
+    margin-bottom: -10px;
+    transition: 1s;
+}
+.point-text{
+
+    font-family: fantasy;
+   margin: 0px auto;
+    width: 300px;
+    margin-bottom: 20px;
+    transition: 1s;
+}
+
+.outside{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    height: 70vh;
+}
+h1{
+    font-family: cursive;
+    text-shadow: 0px 2px 2px white;
+}
+#mubi{
+    width :200px;
+    height: 200px;
+    border-radius: 10px;
+}
+.all{
+    background-color: rgb(62, 105, 121);
+    margin: 0px auto;
+    border: 2px solid rgb(255, 255, 255);
+    width: 500px;
+    padding: 20px;
+    display:flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    transition: 0.8s;
+    border-bottom: 20px solid rgb(57, 99, 57);
+    margin-bottom: 100px;
+}
+.all:hover{
+    transform: translateY(-100px);
+    
+}
+#point:hover{
+     width:230px;
+        border: 6px solid #83c625;
+}
+.point{
+    width: 100%;
+}
+
+point:hover{
+    transform: translateY(100px);
+}
